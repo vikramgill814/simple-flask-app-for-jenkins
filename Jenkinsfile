@@ -10,20 +10,31 @@ pipeline {
         
         stage('Install Dependencies') {
             steps {
-                sh 'pip install -r requirements.txt'
+                sh '''
+                    python3 -m venv venv
+                    . venv/bin/activate
+                    pip install --upgrade pip
+                    pip install -r requirements.txt
+                '''
             }
         }
         
         stage('Build') {
             steps {
-                sh 'echo "Building Flask application..."'
-                sh 'python -m py_compile app.py'
+                sh '''
+                    . venv/bin/activate
+                    echo "Building Flask application..."
+                    python -m py_compile app.py
+                '''
             }
         }
         
         stage('Test') {
             steps {
-                sh 'echo "Running tests..."'
+                sh '''
+                    . venv/bin/activate
+                    echo "Running tests..."
+                '''
             }
         }
         
