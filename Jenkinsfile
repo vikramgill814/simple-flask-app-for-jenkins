@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/vikramgill814/simple-flask-app-for-jenkins.git'
+                git scm
             }
         }
         
