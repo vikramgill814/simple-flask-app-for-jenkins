@@ -206,9 +206,8 @@ After fixing:
 - Docker permissions
 - Flask binding issue
 - Python virtual environment configuration
-
+-- Final Screenshot 
 The pipeline completed successfully and the application became accessible at the configured server IP.
-
 ---
 
 ## 🔒 Security Notes
