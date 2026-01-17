@@ -65,6 +65,9 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 Then:
 - Suggested plugins were installed
 - Admin user was created
+-Screenshots
+<img width="674" height="640" alt="image" src="https://github.com/user-attachments/assets/075ef67e-6763-47a3-8096-5a9d1fae6a2e" />
+<img width="689" height="494" alt="image" src="https://github.com/user-attachments/assets/04a8b062-245f-4fbd-9d27-f7c2103a64b4" />
 
 ---
 
