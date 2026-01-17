@@ -207,6 +207,8 @@ After fixing:
 - Flask binding issue
 - Python virtual environment configuration
 -- Final Screenshot 
+<img width="2936" height="1762" alt="image" src="https://github.com/user-attachments/assets/ea716cbc-ed75-4ef5-acfb-94446278ff82" />
+
 The pipeline completed successfully and the application became accessible at the configured server IP.
 ---
 
